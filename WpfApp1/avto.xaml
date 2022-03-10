@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.avto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="avto" Height="406.286" Width="635.429">
+    <Grid>
+        <DataGrid Height="253" Margin="10,10,10,0" VerticalAlignment="Top"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="542,318,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="23,318,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Редактировать" HorizontalAlignment="Left" Margin="270,318,0,0" VerticalAlignment="Top" Width="95"/>
+
+    </Grid>
+</Window>

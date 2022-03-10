@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.dogoor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="dogoor" Height="357.429" Width="544.143">
+    <Grid>
+        <DataGrid Margin="24,10,28,78"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="24,285,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="433,285,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Редактировать" HorizontalAlignment="Left" Margin="227,285,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
